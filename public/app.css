@@ -1,0 +1,116 @@
+.bg-con {
+  background-color: #191d28;
+  background-size: cover;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.brandName {
+  color: #67bfc1;
+  font-family: "Lucidity Expand";
+  font-size: 65px;
+}
+
+.option {
+  background-color: #2e3241;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 10px;
+  border-style: none;
+}
+
+.timerCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.timer {
+  margin-right: 10px;
+  font-size: 25px;
+  color: #67bfc1;
+}
+
+.telegramButton {
+  background-color: #3dc6c1;
+  border-style: none;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.bestPriceTag {
+  color: #50535b;
+  font-size: 40px;
+  text-align: center;
+}
+
+.priceCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pricePerc {
+  text-align: center;
+}
+
+.perc {
+  color: #3dc6c1;
+  font-size: 55px;
+}
+.perc1 {
+  color: white;
+  font-size: 75px;
+}
+.time {
+  color: #50535b;
+}
+
+.listCon {
+  list-style: none;
+  margin-top: 35px;
+}
+
+.listItem1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #2e3241;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.hash {
+  color: #50535b;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

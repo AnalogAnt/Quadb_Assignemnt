@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c852d135d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c852d135d6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="bg-con">
+      <div class="navbar">
+        <h1 class="brandName">HODLINFO</h1>
+        <div class="optionCon">
+          <select class="option">
+            <option value="INR">INR</option>
+          </select>
+          <select class="option">
+            <option value="BTC">BTC</option>
+            <option value="ETH">ETH</option>
+            <option value="USDT">USDT</option>
+          </select>
+          <button class="option">Buy BTC</button>
+        </div>
+        <div class="timerCon">
+          <p class="timer" id="timer">60</p>
+          <button class="telegramButton">
+            <i class="fab fa-brands fa-telegram"></i>Connect Telegram
+          </button>
+        </div>
+      </div>
+      <p class="bestPriceTag">Best Price To Trade</p>
+      <div class="priceCon">
+        <div class="pricePerc">
+          <p class="perc">0.7%</p>
+          <p class="time">5 Mins</p>
+        </div>
+        <div class="pricePerc">
+          <p class="perc">1.29%</p>
+          <p class="time">1 Hour</p>
+        </div>
+        <div class="pricePerc">
+          <p class="perc1" id="avgPrice"></p>
+          <p class="time">Average BTC/INR net price including commission</p>
+        </div>
+        <div class="pricePerc">
+          <p class="perc">1.76%</p>
+          <p class="time">1 Day</p>
+        </div>
+        <div class="pricePerc">
+          <p class="perc">11.41%</p>
+          <p class="time">7 Days</p>
+        </div>
+      </div>
+      <ul class="listCon" id="tickerList">
+        <li class="listItem1">
+          <p class="hash">#</p>
+          <p class="hash">Platform</p>
+          <p class="hash">Last Traded Price</p>
+          <p class="hash">Buy / Sell Price</p>
+          <p class="hash">Difference</p>
+          <p class="hash">Savings</p>
+        </li>
+      </ul>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
