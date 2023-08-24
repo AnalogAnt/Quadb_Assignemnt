@@ -30,12 +30,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   padding: 10px;
 }
 
 .timer {
   margin-right: 10px;
-  font-size: 25px;
+  font-size: 20px;
   color: #67bfc1;
 }
 
@@ -44,7 +45,7 @@
   border-style: none;
   color: white;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .bestPriceTag {
@@ -91,7 +92,7 @@
 .listItem {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 10px;
   text-align: center;
   background-color: #2e3241;
@@ -111,6 +112,47 @@
   color: white;
   font-weight: bold;
   font-size: 30px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index1 {
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.last {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: 90px;
+}
+.name {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.less {
+  color: #a34b50;
+  font-weight: bold;
+  font-size: 30px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.more {
+  color: #55afae;
+  font-weight: bold;
+  font-size: 30px;
+  width: 350px;
   margin-left: auto;
   margin-right: auto;
 }

@@ -28,7 +28,7 @@ const startServer = async () => {
 };
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "app.html")); // Adjust the file path as needed
+  res.sendFile(path.join(__dirname, "public", "app.html"));
 });
 startServer();
 
@@ -61,10 +61,9 @@ app.get("/fetch-data", async (request, response) => {
 app.get("/get-data", async (request, response) => {
   const getPriorityQuery = `SELECT * FROM details ORDER BY sell DESC LIMIT 10;`;
   const priorityList = await db.all(getPriorityQuery);
-  response.json(priorityList); // Adjust the file path as needed
+  response.json(priorityList);
 });
 
-// Assuming your static files are in a 'public' directory
 app.use(express.static("public"));
 
 export default app;
